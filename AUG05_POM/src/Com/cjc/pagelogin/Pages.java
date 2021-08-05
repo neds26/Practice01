@@ -7,6 +7,8 @@ public class Pages {
 	
 	public WebDriver driver;
 	
+	system.out.println("hii its end...");
+	
 	public Pages (WebDriver driver)
 	{
 		this.driver=driver;
@@ -26,5 +28,7 @@ public class Pages {
 		
 		driver.findElement(Signin).click();
 	}
+	
+	system.out.println("hii its end...");
 
 }
