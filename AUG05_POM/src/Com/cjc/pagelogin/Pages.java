@@ -7,7 +7,7 @@ public class Pages {
 	
 	public WebDriver driver;
 	
-	system.out.println("hii its end...");
+	
 	
 	public Pages (WebDriver driver)
 	{
@@ -27,8 +27,11 @@ public class Pages {
 		driver.findElement(Password).sendKeys("aaaaa");
 		
 		driver.findElement(Signin).click();
+		
+		
 	}
 	
-	system.out.println("hii its end...");
+	
+	
 
 }
