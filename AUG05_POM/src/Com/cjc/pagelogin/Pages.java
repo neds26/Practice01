@@ -29,6 +29,7 @@ public class Pages {
 		
 		driver.findElement(Signin).click();
 		
+		System.out.println("ends");
 		
 	}
 	
