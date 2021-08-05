@@ -22,6 +22,7 @@ public class Pages {
 	
 	public void login()
 	{
+		System.out.println("start");
 		driver.findElement(Username).sendKeys("AAAAA");
 		
 		driver.findElement(Password).sendKeys("aaaaa");
